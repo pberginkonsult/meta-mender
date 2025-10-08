@@ -7,10 +7,7 @@ inherit go
 inherit go-ptest
 inherit pkgconfig
 
-S = "${WORKDIR}/git"
-B = "${WORKDIR}/build"
-
-GOPATHDIR = "${B}/src/${GO_IMPORT}"
+GOPATHDIR = "${S}"
 
 BBCLASSEXTEND = "native nativesdk"
 
