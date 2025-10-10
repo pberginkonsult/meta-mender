@@ -51,3 +51,5 @@ do_image_dataimg[prefuncs] += " do_copy_rootfs do_install_bootstrap_artifact"
 do_image_dataimg[postfuncs] += " do_delete_copy_rootfs"
 
 IMAGE_TYPEDEP:dataimg:append = " bootstrap-artifact"
+
+PSEUDO_INCLUDE_PATHS .= ",${WORKDIR}/data."
