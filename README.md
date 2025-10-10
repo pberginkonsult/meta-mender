@@ -1,4 +1,4 @@
-# meta-mender
+# meta-mender - !!!WIP fork for migration work!!!
 
 This Yocto meta layer contains all the recipes needed to build the Mender client into a Yocto image.
 
