@@ -54,3 +54,5 @@ do_image_bootimg[depends] += " \
     dosfstools-native:do_populate_sysroot \
     mtools-native:do_populate_sysroot \
 "
+
+PSEUDO_INCLUDE_PATHS .= ",${WORKDIR}/bootfs"
